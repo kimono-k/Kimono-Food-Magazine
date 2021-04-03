@@ -1,0 +1,68 @@
+* {
+    font-family: Tahoma;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    width: 100vw;
+    /*background-color: red;*/
+}
+
+/* H1: Food Magazine - Titel */
+.food-magazine-title {
+    text-align: left;
+}
+
+/* Food buttons - Gelijke breedte */
+.food-buttons button {
+    width: 100%;
+}
+
+.top {
+    background-color: #ffc107;
+    color: black;
+    height: 100px;
+    /* Tekst in het midden positioneren */
+    display: flex;
+    align-items: center;
+}
+
+.recipe-image {
+    height: 350px;
+    width: 350px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.recipe-wrapper {
+    width: 60vw;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#info-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #ffc107;
+    display: block;
+}
